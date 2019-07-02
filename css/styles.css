@@ -1,0 +1,66 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+
+.bgimg-1 {
+  background-image: url('../images/Monday.jpg');
+}
+.bgimg-2 {
+  background-image: url('../images/Saturday.jpg');
+}
+.bgimg-3 {
+  background-image: url('../images/Sunday.jpg');
+}
+.bgimg-4 {
+  background-image: url('../images/Thursday.jpg');
+}
+.bgimg-5 {
+  background-image: url('../images/Tuesday.jpg');
+}
+.bgimg-5 {
+  background-image: url('../images/Wednesday.jpg');
+}
+.bgimg-6 {
+  background-image: url('../images/Friday.jpg');
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+
+#countdown {
+  font-size: 30px
+}
